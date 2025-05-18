@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Changé à "fr" puisque le contenu est en français -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les meilleures universités du Mali et leurs particularités"> <!-- Ajout d'une meta description -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>Meilleures Universités du Mali - Mes Favoris</title> <!-- Titre plus descriptif -->
+</head> <!-- Suppression du doublon de balise head -->
+
+<body>
+    <main>
+        <header> <!-- Ajout d'un header sémantique -->
+            <h1>Top des Universités du Mali</h1> <!-- Titre légèrement modifié pour plus de clarté -->
+        </header>
+
+        <section aria-labelledby="about-heading"> <!-- Section avec aria pour accessibilité -->
+            <h2 id="about-heading">À propos</h2> <!-- Id pour correspondre avec aria-labelledby -->
+            <p>L'Université du Mali a une tradition d'excellence dans la recherche, l'apprentissage, l'enseignement, les sports, les arts et plus encore.</p>
+        </section>
+
+        <section aria-labelledby="facts-heading">
+            <h2 id="facts-heading">Faits rapides</h2>
+            
+            <article> <!-- Article pour contenu autonome -->
+                <h3>Mes meilleurs amis</h3>
+                <ul>
+                    <li>Samoune Diallo</li> <!-- Correction de la majuscule -->
+                    <li>Moussa Koné</li> <!-- Ajout de l'accent -->
+                    <li>Ibrahim Doumbia</li>
+                    <li>Aly Maïga</li> <!-- Ajout de l'accent -->
+                </ul>
+            </article>
+
+            <article>
+                <h3>Meilleures universités publiques</h3>
+                <p>Source: <a href="https://www.universityguru.com/fr/universites--mali#:~:text=Quelle%20est%20l'universit%C3%A9%20la,compos%C3%A9%20de%20108%20classements%20universitaires." target="_blank" rel="noopener noreferrer">University Guru</a></p> <!-- Lien plus accessible et sécurisé -->
+                <ol>
+                    <li><strong>L'Université du Mali</strong></li> <!-- Ajout de l'article -->
+                    <li>Université des Sciences et Technologies</li> <!-- Correction du nom -->
+                    <li>Institut Universitaire de Formation Professionnelle</li> <!-- Nom complet et correction -->
+                    <li>Faculté d'Ingénierie</li>
+                    <li>Faculté des Sciences Fondamentales</li> <!-- Correction du nom -->
+                </ol>
+            </article>
+        </section>
+
+        <section aria-labelledby="photos-heading">
+            <h2 id="photos-heading">Photos des universités</h2>
+            <div class="gallery"> <!-- Conteneur pour les images -->
+                <figure> <!-- Balise sémantique pour les images avec légende -->
+                    <img src="img/Fst.jpg" alt="Université des Sciences et Technologies de Bamako" width="300"> <!-- Alt plus descriptif -->
+                    <figcaption>Université des Sciences et Technologies</figcaption> <!-- Légende -->
+                </figure>
+                <figure>
+                    <img src="img/iufp.jpg" alt="Bâtiment principal de l'Institut Universitaire de Formation Professionnelle" width="300">
+                    <figcaption>Institut Universitaire de Formation Professionnelle</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/kabala.jpg" alt="Campus de l'Université de Kabala" width="300">
+                    <figcaption>Université de Kabala</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
